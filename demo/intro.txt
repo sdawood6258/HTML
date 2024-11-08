@@ -1,0 +1,29 @@
+HTML introduction:
+Hyper tect markup language is used to define the structure/skeleton of web pages. It is not a programming language. 
+After rapid growth of WWW in early 1990's, browser starts implementing their own markup languages.
+GML  --->  SGML    ---> HTML 
+
+Markup language --> No errors in code like c or java
+Programming language --> it will show error while run/debug
+
+HTML consists of tags. HTML is not case sensitive. The current version html is HTML5.
+
+HTML tags are represented as two ways
+    1. Open tag
+        like <tagname>
+    2. Closed tag
+        like </tagname>
+
+
+JUST TO KNOW:  In Extension added live server, Material Icon Theme,
+HTML code is embraced by html open & close tags. HTML consist of head and body. In head we will have title.
+
+VS Code provides shortcodes/readymade templates using emmets.
+emmets to get template code:   ! and enter ,  html:5 and enter
+
+
+Comments:
+    <!--  -->
+
+
+

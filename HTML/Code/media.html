@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media HTML</title>
+</head>
+<body>
+    <!-- video -->
+     <!-- <video></video>  tags are used to add video in html-->
+      <!-- without controls attribute it will not play -->
+       <!-- Its attributes are : controls, autoplay, muted -->
+       <!-- source tag is used to add src for video  -->
+     <video height="150" controls autoplay muted>
+        <source src="./sample-5s.mp4">
+     </video>
+
+     <!-- audio -->
+      <!-- audio tags are used to add audio in html  -->
+       <!-- controls are used to play audio  -->
+        <!-- source tag is used to add src for audio -->
+      <audio controls>
+        <source src="./file_example_MP3_700KB.mp3">
+      </audio>
+
+      <!-- iframe  -->
+
+      <!-- add youtube video  -->
+      <!-- iframe is a general frame which is used to combile anything into the website -->
+      <!-- https://www.youtube.com/watch?v=saBdzII5MB4 -->
+       <!-- you tube -- >  share --- > embed<> -- > select iframe code -->
+      <iframe width="200" height="150" src="https://www.youtube.com/embed/saBdzII5MB4?si=DUaTEhdRauSxmeGf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <!-- add pdf also  -->
+       <iframe src="./UI_Full_Stack_Web_with_React_Brochure.pdf" height="300" width="400"></iframe>
+
+       <!-- take google maps -->
+        <!-- go to google map site -- > type some address -- > share option -- > embed a map -- > cpoy iframe  -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60572.37491795665!2d76.56696765000005!3d18.403159950000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf83bd7132cd29%3A0x83629bac5848da3e!2sLatur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1730826688400!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- figure tags -->
+          <!-- Used to give image with caption  -->
+        
+          <figure>
+            <img src="./img.jpeg" alt="img" height="200">
+            <figcaption>Image Name</figcaption>
+          </figure>
+
+        <!-- picture element  in HTML5 -->
+             <!-- it is responsive image -->
+              <!-- it is used to adjust image as media/device width          -->
+                <!-- srcset -- > user for multiple src 
+                src -- > it is used for single -->
+             <picture>
+                <source media="(min-width:992px)" srcset="https://www.loudegg.com/wp-content/uploads/2020/10/Mickey-Mouse.jpg">
+                <source media="(min-width:768px)" srcset="https://i.ytimg.com/vi/TBQbbsSyaqk/hqdefault.jpg">
+                <source media="(min-width:480px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaiQO_Ipf811iQLX1i3LkP51yUJy1uIw8S7w&s">
+                <img src="./img.jpeg" alt="" height="500">
+             </picture>
+            
+             <!-- here first 3 will check its media width & show else it will show img tag -->
+
+</body>
+</html>

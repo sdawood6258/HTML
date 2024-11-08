@@ -1,0 +1,5 @@
+
+
+- Tables can be used for layout
+- cellspacing - for space between cells 
+- cellpadding - for space inside row

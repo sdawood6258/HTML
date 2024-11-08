@@ -1,0 +1,18 @@
+
+anchor tag: anchor tag is used to connect another page/resource. 
+It is done by 'a' tag and it uses attributes like 
+href -- contains link/path to connect
+target  -- we use _blank value to open new tab
+        eg. <a href="link/path">Click Me </a>
+        <a href="path to file" download>Click </a>
+
+
+Images:
+    We can insert images using img tag.
+    img tag uses attributes like    
+        src -- contains link or path of the images   (./  --> current folder,  ../ --> previous folder) 
+        alt -- contains alternative title which works in the absense of src
+
+    we can even set height & width of the images using height & width properties
+
+

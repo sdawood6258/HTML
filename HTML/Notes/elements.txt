@@ -1,0 +1,22 @@
+Tag vs Element
+
+- A tag might be an open tag ( <tagname>) or a closed tag ( </tagname>)
+- But Element consists open, close tags along with its content
+    <p> hello </p>   ---> p Element
+
+- Block vs Inline Elements:
+    - SOme elments continiue in same line & some don't
+    - block elements always prefer to come in new lines 
+    - inline elements always prefer to come in same line 
+    - general inline elements is span & general block element is div
+    - div & span are container elements which are used to contain multiple elements as a group
+    - div makes the group block & span makes it inline
+
+- Semantic Elements
+    - semantic elements does not create any impact on the UI
+    - They are used to make search engine understands the code easily
+    - section, header, footer, nav, main, aside, article tags
+
+    - TASK: 
+        - Create an HTML page to explain semantic elements to print different anchor tags
+    

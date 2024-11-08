@@ -1,0 +1,36 @@
+
+- We can include video into HTML using video element, 
+    - video element uses source tag to define the source of video to load .
+    - source is self closing tag 
+
+    <video>
+        <source src="path">
+    </video>
+
+
+- We can also include audio into HTML using audio element, it also uses source tag
+    <audio>
+        <source src="path">
+    </audio>
+
+- You need to add attributes like controls to get audio or video.
+
+- For pictures we can use either figure tag or picture tag 
+
+    <figure>
+        <img src="" alt="">
+        <figcaption>Image Caption </figcaption>
+    </figure>
+
+    picture tag is used when we have to show different images for different devices, we use picture tag
+
+        <picture>
+            <source media="(min-width:992px)" srcset="https://www.loudegg.com/wp-content/uploads/2020/10/Mickey-Mouse.jpg">
+            <source media="(min-width:768px)" srcset="https://i.ytimg.com/vi/TBQbbsSyaqk/hqdefault.jpg">
+            <source media="(min-width:480px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaiQO_Ipf811iQLX1i3LkP51yUJy1uIw8S7w&s">
+            <img src="./img.jpeg" alt="" height="500">
+        </picture>
+
+- You can also use iframe to bring data from another website
+
+- SUGGUESTION:  Go to freecodecamp

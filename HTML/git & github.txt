@@ -1,0 +1,42 @@
+
+git 
+- git is a distributed version control system.
+- we need to download & install git 
+
+steps:
+ 1. Go to following link
+    https://git-scm.com/downloads -- > windows --> 64 bit
+
+    Install by agree & install
+
+2. Go to terminal  --> new terminal  --> cmd
+
+    git init
+    git add
+    git commit -m "message"
+
+
+    but first time, git config --global user.email "emailId"
+
+    git remote add origin 'link'
+    git push -u main origin
+    git pull origin main/master
+
+    git clone 'path'
+
+
+github :
+
+- github is a website to store, manage, deploy codes.
+- It is provided by oracle
+
+go to github.com & create an account & create repostory (folder)
+
+    - open folder in vs code , open terminal & write following
+    -if already exist
+    git remote remove origin link/path_of repository
+    
+    - if already not exist
+    git remote add origin link/path_of repository
+
+    git push -u origin main

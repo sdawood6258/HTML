@@ -1,0 +1,64 @@
+
+lists are used to list out items. we use daily grocery list, members list, jobs list, menu, contact list, attendance list
+
+some lists need order & some don't
+
+HTML divides list in 3 categories:
+1. Ordered list
+    - It is used to represent lists which need an order
+2. Unordered list
+    - It is used to represent lists which does not need an order
+3. Definition list
+    - It is used  to represent list which needs to be explained
+
+
+1. Ordered list :
+    - It uses ol tag & each list item will be li tag 
+    - 
+    <ol type="a" start="5">
+        <!-- default is number -->
+        <!-- type for list -- 1, a, A, I, i   -->
+        <!-- li*3 -- to add 3 li tag -->
+        <li>Dawood</li>
+        <li>Mukhid</li>
+        <li>Javed</li>
+
+    </ol>
+
+    - There are total 5 types avalaible (a,A,i,I,1)
+    - Default is 1
+    - We can use start attribute to define where we can start our list.
+    - Start always takes numerical value.
+
+2. Unordered list
+    - It uses 'ul' tag & 'li' for each list item
+    <ul type="circle">
+        <!-- type - circle, square, none -->
+        <!-- default is bullets -->
+        <li>Milk</li>
+        <li>Oreo</li>
+        <li>Chololate</li>
+    </ul>
+    - By default Unordered list uses bullet points
+
+3. Definition list
+    - It uses dl tag for list & for each item it need 'dt' & 'dd' 
+    - dt - definition term
+    - dd - definition data
+
+    <dl>
+        <!-- dt - definnition term -->
+        <!-- dd - definition data -->
+        <!-- dt+dd - shortcut to add  -->
+        <!-- (dt+dd)*3 - shortcut to add 3  -->
+         <dt>HTML</dt>
+         <dd>HyperText markup Language</dd>
+         <dt>CSS</dt>
+         <dd>Cascading Style Sheet</dd>
+         <dt>JS</dt>
+         <dd>Javascript</dd>
+         
+    </dl>
+
+4. Nested List
+   - We can also keep one list inside another list called 'Nested List'.
